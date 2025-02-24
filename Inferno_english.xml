@@ -214,7 +214,7 @@
 	"id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152133394",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-24T15:21:33.394Z",
-	"dcterms:modified": "2025-02-24T15:21:33.394Z",
+	"dcterms:modified": "2025-02-24T15:25:05.827Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/dcsw2",
 		"@type": [
