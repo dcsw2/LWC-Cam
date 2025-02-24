@@ -297,7 +297,7 @@
 	"id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152208716",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-24T15:22:08.716Z",
-	"dcterms:modified": "2025-02-24T15:22:08.716Z",
+	"dcterms:modified": "2025-02-24T15:23:55.379Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/dcsw2",
 		"@type": [
@@ -328,7 +328,10 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://www.wikidata.org/entity/Q313421",
 		"dc:format": "text/plain"
 	},
@@ -338,7 +341,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -376,7 +380,7 @@
 	"id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152232595",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-24T15:22:32.595Z",
-	"dcterms:modified": "2025-02-24T15:22:32.595Z",
+	"dcterms:modified": "2025-02-24T15:24:07.717Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/dcsw2",
 		"@type": [
@@ -408,6 +412,7 @@
 	},
 	"oa:hasBody": {
 		"@type": [
+			"cwrc:NaturalPerson",
 			"schema:Person",
 			"cwrc:FictionalPerson"
 		],
@@ -459,7 +464,7 @@
 	"id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152302175",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-24T15:23:02.175Z",
-	"dcterms:modified": "2025-02-24T15:23:02.175Z",
+	"dcterms:modified": "2025-02-24T15:23:42.860Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/dcsw2",
 		"@type": [
@@ -490,7 +495,11 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://www.wikidata.org/entity/Q9077",
 		"dc:format": "text/plain"
 	},
@@ -501,6 +510,89 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
 	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152334131",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-24T15:23:34.131Z",
+	"dcterms:modified": "2025-02-24T15:23:34.131Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/dcsw2",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Daniel C.S. Wilson"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152334131#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/dcsw2/LWC-Cam/main/Inferno_english.xml?person_annotation_20250224152334131#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[20]/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q9181",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -632,12 +724,12 @@
 
             <lg n="19">
                <l n="55">Hence he drew forth the shade of <persName key="Adam" ref="http://www.wikidata.org/entity/Q70899" cert="high" type="fictional">the First Parent</persName>,</l>
-               <l n="56">And that of his son <persName key="Abel" ref="http://www.wikidata.org/entity/Q313421">Abel</persName>, and of <persName key="Noah" ref="http://www.wikidata.org/entity/Q81422" cert="high" type="fictional">Noah</persName>,</l>
-               <l n="57">Of <persName key="Moses" ref="http://www.wikidata.org/entity/Q9077">Moses</persName> the lawgiver, and the obedient</l>
+               <l n="56">And that of his son <persName key="Abel" ref="http://www.wikidata.org/entity/Q313421" cert="high" type="fictional">Abel</persName>, and of <persName key="Noah" ref="http://www.wikidata.org/entity/Q81422" cert="high" type="both">Noah</persName>,</l>
+               <l n="57">Of <persName key="Moses" ref="http://www.wikidata.org/entity/Q9077" type="both">Moses</persName> the lawgiver, and the obedient</l>
             </lg>
 
             <lg n="20">
-               <l n="58">Abraham, patriarch, and David, king,</l>
+               <l n="58"><persName key="Abraham" ref="http://www.wikidata.org/entity/Q9181" cert="high" type="fictional">Abraham</persName>, patriarch, and David, king,</l>
                <l n="59">Israel with his father and his children,</l>
                <l n="60">And Rachel, for whose sake he did so much,</l>
             </lg>
